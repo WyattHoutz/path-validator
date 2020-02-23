@@ -1,0 +1,12 @@
+{
+  "name": "path-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node index.js > /dev/null; node index.js"
+  }
+}
